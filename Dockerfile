@@ -1,5 +1,7 @@
 # Use uma imagem base do Node.js
-FROM node:20.04
+FROM node:20.9-slim
+
+
 
 # Crie o diretório de trabalho no contêiner
 WORKDIR /usr/src/app
